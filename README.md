@@ -16,7 +16,7 @@ With a preprocessing data (_preprocessing_data.d_ file) relating depolymerizatio
 
 ## GUI
 
-Using tkinter (https://docs.python.org/3/library/tkinter.html) package the Viskositas Academic GUI applcation was developed (_viskositas_academic_GUI.py_ file). The application has various functionalities (e.g. Cut, Copy, Paste, Delete, reports generation, open files), and is **FREE TO USE!**
+Using tkinter (https://docs.python.org/3/library/tkinter.html) package the Viskositas Academic GUI application was developed (_viskositas_academic_GUI.py_ file). The application has various functionalities (e.g. Cut, Copy, Paste, Delete, reports generation, open files), and is **FREE TO USE!**
 
 # Contact
 
