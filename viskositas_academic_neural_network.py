@@ -13,7 +13,6 @@ dados = pickle.load(open('preprocessing_data.d', 'rb'))
 # partitioning training, validation and test data
 x_total = dados.iloc[0:len(dados), 0:len(dados.columns) - 1]
 y_total = dados.iloc[0:len(dados), len(dados.columns) - 1:len(dados.columns)]
-x_total = (x_total - x_total.mean()) / x_total.std()
 x, xt, y, yt = train_test_split(x_total, y_total, test_size = 0.1, random_state = 376)
 
 # pipeline to standardize the input and trainning the neural network 
