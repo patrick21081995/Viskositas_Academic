@@ -16,7 +16,7 @@ y_total = dados.iloc[0:len(dados), len(dados.columns) - 1:len(dados.columns)]
 x_total = (x_total - x_total.mean()) / x_total.std()
 x, xt, y, yt = train_test_split(x_total, y_total, test_size = 0.1, random_state = 376)
 
-# pipeline to standardize the input and make and trainning the neural network 
+# pipeline to standardize the input and trainning the neural network 
 pipeline = make_pipeline(StandardScaler(),
 MLPRegressor(hidden_layer_sizes=(4), activation='relu', solver='adam', batch_size=64, learning_rate_init=0.001,
 tol=0.0001, random_state=549, validation_fraction=0.1, early_stopping=True, max_iter=100000, n_iter_no_change=50000, verbose=True))
