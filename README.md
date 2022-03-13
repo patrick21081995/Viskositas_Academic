@@ -1,6 +1,6 @@
 # Viskositas_Academic
 
-Academic version of **Viskositas** (_Viskositas_ — https://github.com/patrick21081995/VISKOSITAS) with viscosity prediction of CaO-SiO₂-MgO-Al₂O₃-MnO-FeO-CaF₂-Na₂O systems. _Viskositas Academic_ is a neural network and has better efficiency when compared to classic equations, neural networks in literature and other commercial software and uses the values of chemical composition and temperature to predict the viscosity value of the chemical system at the given temperature (The database, applications, and references are in **Viskositas**).
+Academic version of **Viskositas** (_Viskositas_ — https://github.com/patrick21081995/VISKOSITAS) with viscosity prediction of CaO-SiO₂-MgO-Al₂O₃-MnO-FeO-CaF₂-Na₂O systems. _Viskositas Academic_ is a neural network and has better efficiency when compared to classic equations, neural networks in literature and other commercial software and uses the values of chemical composition and temperature to predict the viscosity value of the chemical system at the given temperature (database, applications, and references are in **Viskositas**).
 
 ## Neural Network
 
