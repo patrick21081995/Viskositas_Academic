@@ -6,11 +6,11 @@ Academic version of **Viskositas** (_Viskositas_ — https://github.com/patrick2
 
 With a preprocessing data (_preprocessing_data.d_ file) relating depolymerization (NBO/T) and liquidus temperature (Tliq) parameters Viskositas Academic was developed. (_viskositas_academic_pipeline.s_ file). A database for training, validation and testing was separated and the test dataset was **NOT** used for training the neural network (_viskositas_academic_neural_network.py_ file).
 
-| Metrics/ Models | **_Viskositas 1.0.1_** | _Viskositas Academic_ | _FactSage® 7.2_ |
+| Metrics/ Models | **_Viskositas 1.0.1_** | _Viskositas Academic_ | FactSage® 7.2 |
 | :---: | :---: | :---: | :---: |
-|  Mean Absolute Error (log η) | **_0.2309_** | 0.8112 | 0.8112 |
-| Standard Deviation (log η) | **_0.5446_** | 1.3348 | 1.3348 |
-| Coefficient of Determination (R²) | **_0.9864_** | 0.8212 | 0.8212 |
+|  Mean Absolute Error (log η) | **_0.2309_** | _0.7058_ | 0.8112 |
+| Standard Deviation (log η) | **_0.5446_** | _0.8775_ | 1.3348 |
+| Coefficient of Determination (R²) | **_0.9864_** | _0.8993_ | 0.8212 |
 
 *η - Pa.s
 
