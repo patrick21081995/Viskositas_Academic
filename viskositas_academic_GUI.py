@@ -1,5 +1,4 @@
 # packages imports
-from ensurepip import version
 from tkinter import font
 from tkinter.ttk import *
 from tkinter import *
@@ -361,7 +360,6 @@ def rede():
                 raise CError
 
             lista[-1] += 273.15
-            print(lista)
             viscosidad = va_model.predict([lista])
 
             if float(table[ii][8].get()) <= 0.0:
