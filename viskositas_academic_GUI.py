@@ -458,6 +458,7 @@ menubar.add_cascade(label='Units ', menu=optionsmenu)
 
 
 # function to download the base_file_viskositas_academic.csv
+# IF the file is in the same directory of viskositas_academic_GUI.py
 def base():
     try:
         target = filedialog.asksaveasfilename(title=f'{nome} {versao} — Base file (.csv) ',
