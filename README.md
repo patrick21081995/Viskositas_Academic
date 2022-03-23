@@ -22,6 +22,7 @@ Using tkinter (https://docs.python.org/3/library/tkinter.html) package the Visko
 
 # Contact
 
+- Site: https://www.patrickdosanjos.com/
 - E-mail: patrick.dosanjos@outlook.com
 - Linkedin: https://www.linkedin.com/in/patrick-queiroz-dos-anjos/
 
